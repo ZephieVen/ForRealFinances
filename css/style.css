@@ -20,9 +20,10 @@ h1{
   font-size: inherit;
   font-weight: normal;
   color: white;
+  margin: 0 50px;
 }
 nav{
-  
+  margin: 0 15px;
 }
 h2{
   font-weight: normal;
