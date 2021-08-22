@@ -9,25 +9,20 @@ body{
 
 
 header{
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   background-color: orange;
   width: 100%;
   padding: 15px 0;
   text-decoration: none;
 }
-header .left{
-  float: left;
-}
-header .right{
-  float: right;
-}
-header .right a{
-  margin-right: 10px;
-}
 h1{
   font-size: inherit;
   font-weight: normal;
   color: white;
+}
+nav{
+  
 }
 h2{
   font-weight: normal;
@@ -37,9 +32,6 @@ h2{
 a{
   color: white;
   text-decoration: none;
-}
-header span{
-  margin-left: 50px
 }
 main{
   clear: both;
@@ -51,7 +43,6 @@ main{
 }
 section{
   text-align: left;
-  float: left;
   width: 281px;
   background-color: white;
   border: 3px solid orange;
